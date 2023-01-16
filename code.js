@@ -1,6 +1,6 @@
 function greater() {
-    a = num1.value
-    b = num2.value
+    a = Number(num1.value)
+    b = Number(num2.value)
     if (a != `` && b != ``) {
         if (a == b) {
             alert(`numbers are same bro`)
